@@ -1,0 +1,69 @@
+//Mixin
+//Set property of avitar picture
+@mixin avitar {
+  border-radius: 50%;
+  height: $avitar-Height;
+  width: $avitar-Width;
+  padding: 0;
+
+  }
+
+  .container{
+
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  }
+
+  .leftContainer{
+    max-width: 640px;
+    margin: auto;
+    overflow: hidden;
+    }
+  }
+
+  .avitar{
+
+    @include avitar;
+    margin-left: 0px;
+
+  }
+
+header{
+  text-align: center;
+}
+
+.social{
+
+}
+
+body{
+  background-color:#336600;
+  color: #FF6600;
+
+  h2{
+    color:orange;
+    font-family:Times, serif;
+
+  }
+
+  h3 {
+    color:Blue;
+    font-family: Arial, sans-serif;
+  }
+
+  .uppercase{
+    text-transform: uppercase;
+  }
+
+  a{
+    color: red;
+
+  a:hover{
+    color: blue;
+  }
+  }
+
+.underline{
+ text-decoration: underline;
+}
